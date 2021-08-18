@@ -1,0 +1,25 @@
+package TestRunner;
+
+import org.junit.AfterClass;
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/OMS_Report/OMS.html",
+		"junit:target/cucumber-reports/Cucumber.xml",
+		"html:target/cucumber-reports" },features = "C:\\Users\\Sandesh.Lahoti\\Documents\\GitHub\\OMS\\Kale_OMS_WebApplication\\features", 
+		tags ="@T7800",
+		glue = "stepdefinitions", monochrome = true, strict = false)
+
+    public class TestRunner {
+	@AfterClass
+	public static void writeExtentReport() {
+
+	}
+ 
+
+
+
+}

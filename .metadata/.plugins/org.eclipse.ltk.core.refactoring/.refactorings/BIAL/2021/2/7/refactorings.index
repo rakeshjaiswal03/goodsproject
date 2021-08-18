@@ -1,0 +1,10 @@
+1613129904280	Rename package 'StepDefinition'
+1613130372230	Rename package 'Operations'
+1613131022430	Rename type 'MawbList'
+1613131037494	Rename type 'HouseManifest'
+1613131055133	Rename type 'HawbList'
+1613131068071	Rename type 'CreateAWB'
+1613131079555	Rename type 'AttachMawbToHawb'
+1613131167522	Rename type 'HawbDetailsUpload'
+1613131710561	Rename package 'TestRunner'
+1613132077107	Delete element

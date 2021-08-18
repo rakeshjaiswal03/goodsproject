@@ -1,0 +1,16 @@
+URL=https://omstest.kalelogistics.com/
+
+username=sandesh.lahoti@kalelogistics.com
+password=Kale@1108
+
+approvalUsername=Rakesh.Jaiswal@Kalelogistics.com
+approvalPassword=Kale@4321
+
+superUserUsername=Abhishek.Bharadwaj@Kalelogistics.com
+superUserPassword=Kale@654321
+
+ChromedriverPath=E:\\AutomationDrivers\\ChromeDriver\\87.0.4280.88\\chromedriver.exe
+
+DownloadPath=E:\\G&W_OMS\\Downloads\\
+
+UploadFilePath=E:\\G&W_OMS\\Upload\\ManualOrderScreenTerminalDropdownIssue1.png

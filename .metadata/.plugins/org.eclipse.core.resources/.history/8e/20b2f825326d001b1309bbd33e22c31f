@@ -1,0 +1,41 @@
+package StepDefinitions;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class Test_BialTest {
+//	public WebDriver driver;
+//	public Setup setup;
+//	public Login_screen login;
+//	public OMS_Sidebar_Link menu;
+//	
+//	public WebdriverMethods wm;
+//	public CommonOperation co;
+//	
+//	public Activity activity;
+//	public ScreenFunctionality sfunctionality;
+//	public User_Setup_Role_Right_Screen roleRight;
+	
+	public boolean verify = false;
+	String ConfigKeysFile = "Config_Keys.properties";
+	String chromeDriverPath = null,  donwloadPath = null, URL = null, Username = null, Password = null;
+	
+	
+	@Given("^Launch Browser and Bial application link$")
+	public void launch_Browser_and_Bial_application_link() throws Throwable {
+	}
+
+	@When("^Login in Bial application$")
+	public void login_in_Bial_application() throws Throwable {
+	}
+
+	@Then("^Verify Navigated to Home screen$")
+	public void verify_Navigated_to_Home_screen() throws Throwable {
+	}
+
+	@Given("^Navigated to Create AWB screen$")
+	public void navigated_to_Create_AWB_screen() throws Throwable {
+	}
+	
+}

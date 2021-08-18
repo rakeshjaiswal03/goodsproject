@@ -1,0 +1,11 @@
+URL=https://omstest.kalelogistics.com/
+
+agentUsername=sandesh.lahoti@kalelogistics.com
+agentPassword=Kale@1108
+
+airlineUsername=acsairline
+airlinePassword=12345678
+
+ChromedriverPath=E:\\AutomationDrivers\\ChromeDriver\\87.0.4280.88\\chromedriver.exe
+
+GeckodriverPath=E:\\AutomationDrivers\\FirefoxDriver\\0.28\\geckodriver.exe
